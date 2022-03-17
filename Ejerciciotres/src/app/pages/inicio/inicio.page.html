@@ -6,9 +6,21 @@
 
 <ion-content>
 
-  <ion-button routerLink="/Descripcion">Descripcion</ion-button>
-  <ion-button routerLink="/Lugar-Nacimiento">Lugar-Nacimiento</ion-button>
-  <ion-button routerLink="/Metas">Metas</ion-button>
+  <!--<ion-button routerLink="/inicio">Descripcion</ion-button>-->
+  <!--<ion-button routerLink="/Lugar-Nacimiento">Lugar-Nacimiento</ion-button>-->
+  <!--<ion-button routerLink="/Metas">Metas</ion-button>-->
+
+  <ion-list>
+    <ion-item *ngFor="let c of componentes">
+      <ion-icon [name]="c.icon" slot="start"
+      [routerLink]="c.redirectTo"></ion-icon>
+      {{c.name}}
+    </ion-item>
+    
+  </ion-list> 
+
+
+
 
 
 </ion-content>

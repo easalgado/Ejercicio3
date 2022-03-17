@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { LugarNacimientoPageRoutingModule } from './lugar-nacimiento-routing.module';
 
 import { LugarNacimientoPage } from './lugar-nacimiento.page';
+import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LugarNacimientoPageRoutingModule
+    LugarNacimientoPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [LugarNacimientoPage]
 })

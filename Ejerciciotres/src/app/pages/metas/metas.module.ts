@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { MetasPageRoutingModule } from './metas-routing.module';
 
 import { MetasPage } from './metas.page';
+import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MetasPageRoutingModule
+    MetasPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [MetasPage]
 })
