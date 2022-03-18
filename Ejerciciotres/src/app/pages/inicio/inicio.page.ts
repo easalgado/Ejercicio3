@@ -20,17 +20,17 @@ export class InicioPage implements OnInit {
     {
       icon:'people-outline',
       name:'Descripcion',
-      redirectTo: '/Descripcion'
+      redirectTo: '/descripcion'
     },
     {
       icon:'home-outline',
       name:'Lugar-Nacimiento',
-      redirectTo: '/Lugar-Nacimiento'
+      redirectTo: '/lugar-nacimiento'
     },
     {
       icon:'paper-plane-outline',
       name:'Metas',
-      redirectTo: '/Metas'
+      redirectTo: '/metas'
     }
   ];
 
